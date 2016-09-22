@@ -28,12 +28,10 @@ def run_tests():
 # Edit this function:
 def gone_bust(n):
 
-    if n <= 5:
+    if n < 5 or 7 < n:
         print("HELP! HELP!")
 
-    elif n >= 7:
-        print("HELP! HELP!")
 
-    elif n == 6:
+    else:
         print("Pheww!")
 
